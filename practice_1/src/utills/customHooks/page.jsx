@@ -1,7 +1,7 @@
 import { useCallback, useEffect, useState } from "react";
 import useDebounce from "./useDebounce";
 
-function App() {
+function Page1() {
   const [inputval, setinputval] = useState('');
 
 
@@ -21,4 +21,4 @@ function App() {
   );
 }
 
-export default App;
+export default Page1;
