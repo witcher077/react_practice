@@ -1,5 +1,6 @@
 import { useContext, useState } from "react";
 import { UserContext } from "./utills/Context/userContext";
+import Page1 from "./utills/customHooks/page";
 
 function App() {
   const [inputval, setinputval] = useState('');
@@ -10,6 +11,7 @@ function App() {
 
   return (
     <>
+    <Page1/>
       <p>
         User Name: <strong>{user.name}</strong>
       </p>
