@@ -8,7 +8,6 @@ function Page1() {
 
 
   const handleChange = useCallback(useDebounce((val) => {
-    console.log(val)
   }, 5000), [])
 
   useEffect(() => {
