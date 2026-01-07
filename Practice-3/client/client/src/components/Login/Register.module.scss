@@ -1,0 +1,58 @@
+@import '../../variables.scss';
+
+.loginContainer{
+   position: relative;
+  background-image: url("../../assets/loginBG.jpg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+   height:100vh;
+   padding: 10%;
+   
+}
+
+.formLabel{
+    color: #fff !important;
+ 
+}
+.formcontrol{
+    border:0;
+    border-radius: 0;
+    border-bottom: 1px solid #fff;
+    background-color: #000 !important;
+    color: #fff !important;
+}
+.customBtn{
+    background-image: linear-gradient(to right, #fbda0b, #ff7c00);
+    border: 0;
+    border-radius: 50px;
+    color:#000 !important;
+    width:100%;
+    margin: 5% 10%;
+}
+
+.center{
+ display: flex;
+ justify-content: center;
+}
+.forgotPwd{
+    color:gray;
+}
+.mb2{
+margin-bottom: 2rem;
+}
+.register{
+    color:#000;
+    text-decoration: none;
+}
+.pl4{
+ padding-left: 1.5rem;
+}
+.light{
+    background-color: #fff;
+}
+
+.alert-danger {
+        margin-top: 5px;
+        padding: 3px 10px;
+}

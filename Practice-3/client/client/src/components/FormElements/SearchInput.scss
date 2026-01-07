@@ -1,0 +1,71 @@
+.has-search {
+    width: 100%;
+}
+.has-search .form-control {
+    padding-right: 2.75rem;
+    border-right: none !important;
+}
+
+.has-search .form-control:focus {
+    outline: none;
+    box-shadow: none;
+}
+
+.has-search .form-control-feedback {
+    display: block;
+    width: 1.5rem;
+    height: 1.5rem;
+    line-height: 1.5rem;
+    text-align: center;
+    cursor: pointer;
+    color: #aaa;
+    padding: 1rem;
+    background: #ffffff;
+    // border: 1px solid #707070;
+    border-left: none !important;
+}
+
+.has-search .autoCompolelte {
+    position: absolute;
+    background: #ffffff;
+    width: 455px;
+    // border: 1px solid #707070;
+    box-shadow: 0px 3px 6px #00000029;
+    z-index: 10;
+    cursor: pointer;
+    .layoutSearch {
+        font-size: 16px;
+        color: #414141;
+        text-decoration: none;
+    }
+    .typedSearch {
+        margin-bottom: 15px;
+        // border-bottom: 1px solid #ccc;
+        padding: 15px;
+        margin-bottom: 0;
+        span {
+            color: #46b7e9;
+            font-weight: 700;
+            text-transform: capitalize;
+            padding: 0 5px;
+        }
+        &:hover {
+            background-color: #ccc;
+            color: #000000;
+        }
+    }
+}
+
+.input-group input{
+    border: 0 !important;
+}
+.input-group{
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: 0px 0px 6px #00000029;
+    border: 0 !important;
+    border-radius: 10px;
+}
+
+.input-group svg{
+    border: 0 !important;
+}

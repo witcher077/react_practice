@@ -1,0 +1,33 @@
+{
+    "name": "Base",
+    "version": "1.0.0",
+    "description": "Basic structure for Express web apps.",
+    "main": "app.js",
+    "scripts": {
+        "start": "nodemon app.js"
+    },
+    "author": "Terlici Ltd.",
+    "license": "MIT",
+    "dependencies": {
+        "apollo-server-express": "2.14.3",
+        "bcrypt": "^5.1.1",
+        "body-parser": "^1.18.3",
+        "cors": "^2.8.5",
+        "dotenv": "^16.0.1",
+        "express": "^4.16.0",
+        "express-jwt": "^6.1.0",
+        "graphql": "15.1.0",
+        "handlebars": "^4.7.7",
+        "inflect": "^0.5.0",
+        "joi": "^17.4.1",
+        "jsonwebtoken": "^8.5.1",
+        "lodash": "^4.17.21",
+        "moment": "^2.29.4",
+        "mongoose": "^5.13.5",
+        "multer": "^1.4.5-lts.1",
+        "nodemailer": "^6.7.7",
+        "nodemon": "^2.0.19",
+        "socket.io": "^4.5.2",
+        "uuid": "^8.3.2"
+    }
+}

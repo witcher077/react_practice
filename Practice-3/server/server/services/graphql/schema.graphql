@@ -1,0 +1,59 @@
+type Query {
+  user(email: String!): User
+  users: [User]
+  ideas: [Idea]
+}
+
+type Mutation {
+  registerUser(input: RegisterUserInput): registerUser
+  addIdea(input: AddIdea): Idea
+}
+
+type registerUser {
+  name: String!
+  userId: String!
+  email: String!
+  userType: String!
+  password: String!
+}
+
+type User {
+  name: String!
+  userId: String!
+  email: String!
+  userType: String!
+}
+
+input RegisterUserInput {
+  name: String!
+  userId: String!
+  email: String!
+  password: String!
+  userType: String!
+}
+
+type Idea {
+  firstName: String!
+  lastName: String!
+  category: String!
+  location: String!
+  title: String!
+  description: String!
+  possibleSolution: String!
+  benefits: String!
+  efforts: String!
+  skillsRequired: [String]!
+}
+
+input AddIdea {
+  firstName: String!
+  lastName: String!
+  category: String!
+  location: String!
+  title: String!
+  description: String!
+  possibleSolution: String!
+  benefits: String!
+  efforts: String!
+  skillsRequired: [String]!
+}

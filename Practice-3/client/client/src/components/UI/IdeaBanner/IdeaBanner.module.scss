@@ -1,0 +1,272 @@
+@import "../../../variables.scss";
+
+.innovationLayout {
+  margin-top: 20px;
+}
+.innovationIdeaheaderCol h1 {
+  color: $yellow;
+  font-weight: 900;
+  font-size: 3.3rem;
+}
+
+.innovationIdeaImg {
+  width: 30%;
+}
+
+.innovationIdeaStatus {
+  @media (min-width: 1201px) {
+    text-align: center;
+    font: normal normal bold 24px Roboto;
+    letter-spacing: 0px;
+    color: #3d3d3d;
+    margin-top: 15px;
+    margin-bottom: 2px;
+  }
+  @media (max-width: 1200px) and (min-width: 993px) {
+    text-align: center;
+    font: normal normal bold 20px Roboto;
+    letter-spacing: 0px;
+    color: #3d3d3d;
+    margin-top: 15px;
+    margin-bottom: 2px;
+  }
+  @media (max-width: 992px) and (min-width: 769px) {
+    text-align: center;
+    font: normal normal bold 18px Roboto;
+    letter-spacing: 0px;
+    color: #3d3d3d;
+    margin-top: 15px;
+    margin-bottom: 2px;
+  }
+  @media (max-width: 768px) and (min-width: 577px) {
+    text-align: center;
+    font: normal normal bold 16px Roboto;
+    letter-spacing: 0px;
+    color: #3d3d3d;
+    margin-top: 15px;
+    margin-bottom: 2px;
+  }
+  @media (max-width: 576px) and (min-width: 0px) {
+    text-align: center;
+    font: normal normal bold 14px Roboto;
+    letter-spacing: 0px;
+    color: #3d3d3d;
+    margin-top: 15px;
+    margin-bottom: 2px;
+  }
+}
+
+.innovationIdeaCount {
+  @media (min-width: 1201px) {
+    text-align: center;
+    font: normal normal bold 46px Roboto;
+    letter-spacing: 0px;
+    color: #3d3d3d;
+  }
+  @media (max-width: 1200px) and (min-width: 993px) {
+    text-align: center;
+    font: normal normal bold 40px Roboto;
+    letter-spacing: 0px;
+    color: #3d3d3d;
+  }
+  @media (max-width: 992px) and (min-width: 769px) {
+    text-align: center;
+    font: normal normal bold 34px Roboto;
+    letter-spacing: 0px;
+    color: #3d3d3d;
+  }
+  @media (max-width: 768px) and (min-width: 577px) {
+    text-align: center;
+    font: normal normal bold 28px Roboto;
+    letter-spacing: 0px;
+    color: #3d3d3d;
+  }
+  @media (max-width: 576px) and (min-width: 0px) {
+    text-align: center;
+    font: normal normal bold 24px Roboto;
+    letter-spacing: 0px;
+    color: #3d3d3d;
+  }
+}
+
+.innovationIdeaStatusImg {
+  width: 80%;
+  // border: 1px solid $grey;
+  border-radius: 100%;
+  color: $yellow;
+}
+
+.innovationIdeaStatusImgs {
+  height: 110px;
+  width: 110px;
+  border: 1px solid $grey;
+  border-radius: 100%;
+  padding: 20px;
+  color: $yellow;
+}
+
+.innovationIdeaheaderCol {
+  margin-right: 160px;
+}
+.innovativeIdeasCount {
+  @media (min-width: 1201px) {
+    text-align: left;
+    font: normal normal bold 106px Roboto;
+    letter-spacing: 0px;
+    color: #2b2b2b;
+    opacity: 1;
+    margin: 25px 0px 0px;
+    text-shadow: 0 0 10px #54d0f4;
+  }
+  @media (max-width: 1200px) and (min-width: 993px) {
+    text-align: left;
+    font: normal normal bold 86px Roboto;
+    letter-spacing: 0px;
+    color: #2b2b2b;
+    opacity: 1;
+    margin: 24px 0px 0px;
+    text-shadow: 0 0 10px #54d0f4;
+  }
+  @media (max-width: 992px) and (min-width: 769px) {
+    text-align: left;
+    font: normal normal bold 66px Roboto;
+    letter-spacing: 0px;
+    color: #2b2b2b;
+    opacity: 1;
+    margin: 22px 0px 0px;
+    text-shadow: 0 0 10px #54d0f4;
+  }
+  @media (max-width: 768px) and (min-width: 577px) {
+    text-align: left;
+    font: normal normal bold 46px Roboto;
+    letter-spacing: 0px;
+    color: #2b2b2b;
+    opacity: 1;
+    margin: 14px 0px 0px;
+    text-shadow: 0 0 10px #54d0f4;
+  }
+  @media (max-width: 576px) and (min-width: 0px) {
+    text-align: left;
+    font: normal normal bold 36px Roboto;
+    letter-spacing: 0px;
+    color: #2b2b2b;
+    opacity: 1;
+    margin: 9px 0px 0px;
+    text-shadow: 0 0 10px #54d0f4;
+  }
+}
+
+.countMessage {
+  @media (min-width: 1201px) {
+    text-align: left;
+    font: normal normal bold 52px "Dancing Script" !important;
+    letter-spacing: 4px;
+    color: #54d0f4;
+    opacity: 1;
+    margin-top: -14px;
+  }
+  @media (max-width: 1200px) and (min-width: 993px) {
+    text-align: left;
+    font: normal normal bold 42px "Dancing Script" !important;
+    letter-spacing: 4px;
+    color: #54d0f4;
+    opacity: 1;
+    margin-top: -13px;
+  }
+  @media (max-width: 992px) and (min-width: 769px) {
+    text-align: left;
+    font: normal normal bold 42px "Dancing Script" !important;
+    letter-spacing: 4px;
+    color: #54d0f4;
+    opacity: 1;
+    margin-top: -12px;
+  }
+  @media (max-width: 768px) and (min-width: 577px) {
+    text-align: left;
+    font: normal normal bold 32px "Dancing Script" !important;
+    letter-spacing: 4px;
+    color: #54d0f4;
+    opacity: 1;
+    margin-top: -11px;
+  }
+  @media (max-width: 576px) and (min-width: 0px) {
+    text-align: left;
+    font: normal normal bold 23px "Dancing Script" !important;
+    letter-spacing: 4px;
+    color: #54d0f4;
+    opacity: 1;
+    margin-top: 0;
+    margin-bottom: 0;
+    display: flex;
+    align-items: center;
+    padding-left: 10px;
+    padding-top: 6px;
+  }
+}
+
+.ideasText {
+  @media (min-width: 1201px) {
+    text-align: left;
+    font: normal normal normal 80px "Dancing Script" !important;
+    letter-spacing: 4px;
+    color: #2b2b2b;
+    opacity: 1;
+    margin: 30px 0px 0px;
+    text-shadow: 0 0 10px #54d0f4;
+  }
+  @media (max-width: 1200px) and (min-width: 993px) {
+    text-align: left;
+    font: normal normal normal 70px "Dancing Script" !important;
+    letter-spacing: 4px;
+    color: #2b2b2b;
+    opacity: 1;
+    margin: 25px 0px 0px;
+    text-shadow: 0 0 10px #54d0f4;
+  }
+  @media (max-width: 992px) and (min-width: 769px) {
+    text-align: left;
+    font: normal normal normal 60px "Dancing Script" !important;
+    letter-spacing: 4px;
+    color: #2b2b2b;
+    opacity: 1;
+    margin: 20px 0px 0px;
+    text-shadow: 0 0 10px #54d0f4;
+  }
+  @media (max-width: 768px) and (min-width: 577px) {
+    text-align: left;
+    font: normal normal normal 40px "Dancing Script" !important;
+    letter-spacing: 4px;
+    color: #2b2b2b;
+    opacity: 1;
+    margin: 15px 0px 0px;
+    text-shadow: 0 0 10px #54d0f4;
+  }
+  @media (max-width: 576px) and (min-width: 0px) {
+    text-align: left;
+    font: normal normal normal 30px "Dancing Script" !important;
+    letter-spacing: 4px;
+    color: #2b2b2b;
+    opacity: 1;
+    margin: 10px 0px 0px;
+    text-shadow: 0 0 10px #54d0f4;
+  }
+}
+.ideaCountList {
+  display: flex;
+  margin-left: 0rem;
+  flex-wrap: wrap;
+}
+.ideaCount {
+  width: 25%;
+  // padding-right: 20px;
+}
+.ideasCountText {
+  display: flex;
+}
+.ideasCountNum {
+  @media (max-width: 820px) {
+  display: flex;
+  margin-bottom: 20px;
+  padding-left: 20px;
+  }
+}

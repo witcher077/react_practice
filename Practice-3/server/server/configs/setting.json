@@ -1,0 +1,20 @@
+{
+    "thoughtFounderDB": {
+        "uri": "mongodb://localhost:27017/thought_founder",
+        "options": {
+            "useNewUrlParser": true,
+            "useUnifiedTopology": true
+        }
+    },
+    "jwt": {
+        "secretKey": "thoughtFounder2022"
+    },
+    "file": {
+        "destination": "uploads/",
+        "size": "1024 * 1024 * 2",
+        "type": [".docx",".pdf",".xlsx",".ppt",".png"]
+    },
+    "DX_DL":"mamatha.h@epsilon.com",
+    "Admin_DL":"umapathi.pawars@epsilon.com",
+    "port": 3000
+}

@@ -1,0 +1,51 @@
+.user-card {
+    background-color: #ffffff;
+    box-shadow: 0px 3px 6px #00000029;
+    border: 1px solid #cccccc;
+    border-radius: 10px;
+    margin: 25px 0;
+    .card-body {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    img {
+        width: 120px;
+        border-radius: 50%;
+        // margin-bottom: 20px;
+    }
+    .card-title {
+        font-size: 16px;
+        font-weight: 700;
+    }
+    .card-footer {
+        text-align: center;
+        background-color: #ffffff;
+        padding: 15px;
+    }
+    button {
+        font-size: 16px;
+        font-weight: 700;
+        border-radius: 5px;
+        &:focus {
+            outline: 0;
+            box-shadow: 0px 3px 4px #00000029;
+        }
+    }
+}
+
+.img-section {
+    padding: 5px;
+    background-color: #ffffff;
+    border-radius: 50%;
+    box-shadow: 0px 0px 7px 1px #ccc;
+    margin-bottom: 20px;
+    height: 100px;
+    width:100px;
+    background-color: #46B7E9;
+    color:#fff;
+    text-align: center;
+    font: normal normal bold 70px Roboto !important;
+    padding: 10px;
+    cursor: pointer;
+}

@@ -1,0 +1,35 @@
+{
+    "data": [
+        {
+            "_id": "62c7f597b61b534fc4bdf946",
+            "isRead": false,
+            "createdOn": "2022-07-14T12:13:43.416Z",
+            "title": "idea submited",
+            "description": "new idea is submitted by umapathi pawar s",
+            "sender": "umapathi.pawars@epsilon.com",
+            "receiver": "umapathi.pawars@epsilon.com",
+            "notificationfor": "user"
+        },
+        {
+            "_id": "62c7f597b61b534fc4bdf952",
+            "isRead": true,
+            "createdOn": "2022-07-08T09:14:43.416Z",
+            "title": "idea submited",
+            "description": "Your idea has been submitted successfully",
+            "sender": "umapathi.pawars@epsilon.com",
+            "receiver": "umapathi.pawars@epsilon.com",
+            "notificationfor": "user"
+        },
+        
+        {
+            "_id": "62c7f597b61b534fc4bdf952",
+            "isRead": true,
+            "createdOn": "2022-07-08T09:14:43.416Z",
+            "title": "idea submited",
+            "description": "Your idea has been submitted successfully",
+            "sender": "umapathi.pawars@epsilon.com",
+            "receiver": "umapathi.pawars@epsilon.com",
+            "notificationfor": "user"
+        }
+    ]
+}

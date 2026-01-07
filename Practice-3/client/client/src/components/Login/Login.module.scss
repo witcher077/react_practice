@@ -1,0 +1,44 @@
+@import '../../variables.scss';
+
+.loginContainer{
+    width: 90%;
+    background-color: rgb(16 16 16);
+    margin-top: 5%;
+    margin-bottom: 5%;
+    border-radius: 2%;
+   
+    @media (min-width: 992px) {
+            width: 30%;
+        }
+}
+
+.formLabel{
+    color: #fff !important;
+    font-weight: bold;
+}
+
+.center{
+ display: flex;
+ justify-content: center;
+}
+.forgotPwd{
+    color:#fff;
+}
+.mb2{
+margin-bottom: 2rem;
+}
+.register{
+    color:#000;
+    text-decoration: none;
+}
+.pl4{
+ padding-left: 1.5rem;
+}
+.light{
+    color: #fff;
+}
+
+.alert-danger {
+        margin-top: 5px;
+        padding: 3px 10px;
+}

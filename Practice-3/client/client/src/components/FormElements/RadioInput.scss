@@ -1,0 +1,26 @@
+.radio-form {
+    width: 100%;
+    margin: 10px 0;
+    .form-label {
+        // width: 50%;
+          @media (min-width: 1201px) {
+            width: 30%;
+          }
+          @media (max-width: 1200px) and (min-width: 993px) {
+            width: 30%;
+          }
+          @media (max-width: 992px) and (min-width: 769px) {
+            width: 40%;
+          }
+          @media (max-width: 768px) and (min-width: 577px) {
+            width: 50%;
+          }
+          @media (max-width: 576px) and (min-width: 0px) {
+            width: 50%;
+          }
+    }
+    input[type="radio"]:checked {
+        background-color: #fec230;
+        border: 1px solid #fec230;
+    }
+}

@@ -1,0 +1,67 @@
+{
+  "data": [
+    {
+      "name": "test123",
+      "userId": "test123",
+      "email": "test123@gmail4.com",
+      "userType": "admin",
+      "totalPoints": 555,
+      "submitteddata": 0,
+      "nominated": 0
+    },
+    {
+      "name": "test123",
+      "userId": "test123",
+      "email": "test123@gmail2.com",
+      "userType": "admin",
+      "totalPoints": 542,
+      "submitteddata": 0,
+      "nominated": 0
+    },
+    {
+      "name": "test123",
+      "userId": "test123",
+      "email": "test1@gmail.com",
+      "userType": "admin",
+      "totalPoints": 4,
+      "submitteddata": 3,
+      "nominated": 2
+    },
+    {
+      "name": "test123",
+      "userId": "test123",
+      "email": "test1@gmail.com",
+      "userType": "admin",
+      "totalPoints": 4,
+      "submitteddata": 3,
+      "nominated": 2
+    },
+    {
+      "name": "test123",
+      "userId": "test123",
+      "email": "test1@gmail.com",
+      "userType": "admin",
+      "totalPoints": 4,
+      "submitteddata": 3,
+      "nominated": 2
+    },
+    {
+      "name": "test123",
+      "userId": "test123",
+      "email": "test1@gmail.com",
+      "userType": "admin",
+      "totalPoints": 4,
+      "submitteddata": 3,
+      "nominated": 2
+    },
+    {
+      "name": "test123",
+      "userId": "test123",
+      "email": "test1@gmail.com",
+      "userType": "admin",
+      "totalPoints": 4,
+      "submitteddata": 3,
+      "nominated": 2
+    }
+  ]
+}

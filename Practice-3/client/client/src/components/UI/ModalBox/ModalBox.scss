@@ -1,0 +1,130 @@
+.modalBackdrop {
+    backdrop-filter: blur(5px);
+}
+
+.modalBackground {
+    background: #e9f0f2 0% 0% no-repeat padding-box;
+    box-shadow: inset 0px 6px 6px #00000029, 0px 3px 6px #00000029;
+    opacity: 1;
+    padding: 10px;
+}
+
+.footerButtons {
+    justify-content: center;
+    Button {
+        border-radius: 5px;
+        opacity: 1;
+        margin: 5px 15px;
+        width: 120px;
+    }
+}
+
+.confirmationMsg {
+    text-align: center;
+    font: normal normal bold 20px/27px Roboto;
+    letter-spacing: 0px;
+    color: #000000;
+    opacity: 1;
+    margin: 30px 0px;
+}
+
+.alertDescription {
+    text-align: center;
+    font: normal normal bold 17px/22px Roboto;
+    letter-spacing: 0px;
+    opacity: 1;
+    margin: 30px 0px;
+}
+
+.headerContent {
+    justify-content: center;
+    padding: 10px 25px;
+}
+
+.modalTitle {
+    font: normal normal 30px Roboto;
+    letter-spacing: 0px;
+    color: #000000;
+    opacity: 1;
+}
+
+.delete-img {
+    width: 18px;
+    margin-left: 97%;
+    cursor: pointer;
+}
+
+.pointsteamclose {
+    width: 18px;
+    margin-left: 97%;
+    cursor: pointer;
+    margin-top: -55px;
+    margin-left: 35px;
+}
+
+.teamCol {
+    display: flex;
+    justify-content: flex-start;
+    margin: 20px 0;
+    flex-wrap: wrap;
+    min-height: 150px;
+    max-height: 200px;
+    overflow: auto;
+    scroll-behavior: smooth;
+}
+
+.teamDiv {
+    text-align: center;
+    margin: 10px 0;
+}
+
+.inputLabel {
+    label {
+        display: none !important;
+    }
+}
+
+.allocatepointsCol {
+    text-align: center;
+    display: flex;
+}
+
+.profileCircle {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    border: 5px solid #fff;
+    background-color: #46b7e9;
+    color: #fff;
+    text-align: center;
+    font: normal normal bold 40px Roboto !important;
+    padding: 6px;
+    margin: 0px 40px;
+}
+
+.modalBody {
+    min-height: 200px;
+    max-height: 450px;
+}
+.roles-body {
+    min-height: 200px;
+    max-height: 300px;
+    overflow: auto;
+}
+.modal-xl {
+    max-width: 60% !important;
+    height: auto !important;
+}
+
+.emptyErrorMsg {
+    color: red;
+    text-align: center;
+    font: normal normal bold 18px Roboto;
+    letter-spacing: 0px;
+    margin-bottom: 10px;
+}
+
+.confirmationButtons{
+    justify-content: center;
+    display: flex; 
+}

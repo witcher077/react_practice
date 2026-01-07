@@ -1,0 +1,157 @@
+.HowItWorksHeader {
+  @media (min-width: 1201px) {
+    text-align: left;
+    font: normal normal bold 46px Roboto;
+    letter-spacing: 0px;
+    color: #3d3d3d;
+    opacity: 1;
+    margin: 20px 0;
+  }
+  @media (max-width: 1200px) and (min-width: 993px) {
+    text-align: left;
+    font: normal normal bold 40px Roboto;
+    letter-spacing: 0px;
+    color: #3d3d3d;
+    opacity: 1;
+    margin: 20px 0;
+  }
+  @media (max-width: 992px) and (min-width: 769px) {
+    text-align: left;
+    font: normal normal bold 34px Roboto;
+    letter-spacing: 0px;
+    color: #3d3d3d;
+    opacity: 1;
+    margin: 20px 0;
+  }
+  @media (max-width: 768px) and (min-width: 577px) {
+    text-align: left;
+    font: normal normal bold 28px Roboto;
+    letter-spacing: 0px;
+    color: #3d3d3d;
+    opacity: 1;
+    margin: 20px 0;
+  }
+  @media (max-width: 576px) and (min-width: 0px) {
+    text-align: left;
+    font: normal normal bold 24px Roboto;
+    letter-spacing: 0px;
+    color: #3d3d3d;
+    opacity: 1;
+    margin: 20px 0;
+  }
+}
+.HowItWorks {
+  background-color: #ecf8ff !important;
+  padding: 10px 0;
+  width: 100%;
+}
+.divCenter {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  margin: auto;
+}
+
+.divCenterIcons {
+  @media (min-width: 1201px) {
+    height: 100px;
+    width: 100px;
+  }
+  @media (max-width: 1200px) and (min-width: 993px) {
+    height: 90px;
+    width: 90px;
+  }
+  @media (max-width: 992px) and (min-width: 769px) {
+    height: 80px;
+    width: 80px;
+  }
+  @media (max-width: 768px) and (min-width: 577px) {
+    height: 70px;
+    width: 70px;
+  }
+  @media (max-width: 576px) and (min-width: 0px) {
+    height: 60px;
+    width: 60px;
+  }
+}
+.rightArrow {
+  @media (min-width: 1201px) {
+    height: 10px;
+    width: 50px;
+    margin-top: -30px;
+  }
+  @media (max-width: 1200px) and (min-width: 993px) {
+    height: 8px;
+    width: 40px;
+    margin-top: -25px;
+  }
+  @media (max-width: 992px) and (min-width: 769px) {
+    height: 8px;
+    width: 40px;
+    margin-top: -20px;
+  }
+  @media (max-width: 768px) and (min-width: 577px) {
+    height: 6px;
+    width: 30px;
+    margin-top: -15px;
+  }
+  @media (max-width: 576px) and (min-width: 0px) {
+    height: 6px;
+    width: 30px;
+    margin-top: -10px;
+  }
+}
+.divCenter p {
+  @media (min-width: 1201px) {
+    font: normal normal bold 16px Roboto;
+    letter-spacing: 0px;
+    color: #2b2b2b;
+    opacity: 1;
+    margin: 16px 0;
+  }
+  @media (max-width: 1200px) and (min-width: 993px) {
+    font: normal normal bold 14px Roboto;
+    letter-spacing: 0px;
+    color: #2b2b2b;
+    opacity: 1;
+    margin: 16px 0;
+  }
+  @media (max-width: 992px) and (min-width: 769px) {
+    font: normal normal bold 14px Roboto;
+    letter-spacing: 0px;
+    color: #2b2b2b;
+    opacity: 1;
+    margin: 16px 0;;
+  }
+  @media (max-width: 768px) and (min-width: 577px) {
+    font: normal normal bold 12px Roboto;
+    letter-spacing: 0px;
+    color: #2b2b2b;
+    opacity: 1;
+    margin: 16px 0;
+  }
+  @media (max-width: 576px) and (min-width: 0px) {
+    font: normal normal bold 12px Roboto;
+    letter-spacing: 0px;
+    color: #2b2b2b;
+    opacity: 1;
+    margin: 16px 0;
+  }
+}
+.divCenter div {
+  position: relative;
+  right: -55%;
+  bottom: 70px;
+  font-size: 30px;
+  letter-spacing: -2px;
+  color: #8f9293;
+}
+
+.submitIdeaBtn {
+  display: inline-block !important;
+  // margin: 40px 0;
+}
+.howItWorksRow{
+    overflow-x: scroll;
+}

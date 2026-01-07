@@ -1,0 +1,66 @@
+.splashHeaderBanner{
+position: relative;
+background: #000 0% 0% no-repeat padding-box;
+border: 1px solid #707070;
+opacity: 1;
+width: 100%;
+}
+.splashbannerImg1{
+    margin-top: 3%;
+    display: flex;
+    justify-content: start;
+}
+.splashbannerImg2{
+    display: flex;
+    justify-content: end;
+}
+.splashThoughtFoundrylogo1{
+    width:200px;
+    height: 100px;
+    @media (max-width: 700px) {
+        width:100px;
+        height: 50px;
+    }
+   }
+   .splashbulbs1{
+    width:150px;
+    @media (max-width: 700px) {
+        width:75px;
+    }
+   }
+.splashsubmitIdeaBtn{
+    // margin: 20px 0 !important;
+}
+.splashmb3{
+    margin-bottom: 3rem;
+}
+.video-container {
+    display: flex;
+  }
+  
+  .overlay-image {
+    position: relative;
+    top: 0;
+    left: 0;
+    height: 850px;
+    // transform: translate(-50%, -50%);
+    // z-index: 1; /* Ensure the image is above the video */
+  }
+  .video-div{
+    display: flex;
+    justify-content: center;
+    padding:5rem 0;
+    @media (max-width: 1024px) {
+        padding:7rem 0;
+    }
+  }
+  .react-player-style{
+     @media (min-width: 1025px) {
+        width: 60% !important;
+        height: auto !important;
+     }
+     @media (max-width: 1024px) {
+        width: 90% !important;
+        height: auto !important;
+     }
+  }

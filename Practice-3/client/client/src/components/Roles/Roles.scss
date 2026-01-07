@@ -1,0 +1,23 @@
+.roles-row {
+    .form-label {
+        color: #54d0f4;
+        font: normal normal bold 15px/19px Roboto;
+    }
+    input {
+        padding: 1.17rem;
+    }
+    div {
+        margin-bottom: 0.5rem;
+    }
+}
+.roles-action {
+    margin-top: 1.75rem;
+    img {
+        margin: 10px;
+        cursor: pointer;
+    }
+    .disable-action {
+        pointer-events: none;
+        opacity: 0.5;
+    }
+}

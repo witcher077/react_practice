@@ -1,0 +1,390 @@
+.welcomeMsg {
+  background: #9f9f9f 0% 0% no-repeat padding-box;
+  opacity: 1;
+  text-align: left;
+  font: normal normal bold 20px/12px Roboto;
+  letter-spacing: 1.98px;
+  color: #2b2b2b;
+  opacity: 1;
+  height: 40px;
+  // padding: 16px 9%;
+  position: relative;
+  top: 40px;
+}
+.middleCard {
+  background: transparent linear-gradient(116deg, #7e57c2 0%, #ab47bc 100%) 0%
+    0% no-repeat padding-box;
+  box-shadow: 0px 3px 30px #0000000f;
+  border-radius: 5px;
+  opacity: 1;
+  padding: 16px;
+}
+.sideCard {
+  background: #ffffff 0% 0% no-repeat padding-box;
+  box-shadow: 0px 3px 30px #0000000f;
+  border-radius: 5px;
+  opacity: 1;
+  margin-top: 16px;
+  padding: 16px;
+}
+.leader-details-profile-circle {
+  width: 55px;
+  height: 55px;
+  font: normal normal bold 35px Roboto !important;
+  box-shadow: 0px 3px 6px #00000012;
+  border: 3px solid #ffffff;
+  opacity: 1;
+  border-radius: 50%;
+  align-self: center !important;
+  background-color: #fec230;
+  color: #000;
+  text-align: center;
+  padding: 3px;
+  cursor: pointer;
+}
+.top1LeaderName {
+  text-align: left;
+  letter-spacing: 0px;
+  color: #ffffff;
+  opacity: 1;
+  text-transform: capitalize;
+  margin-top: 15px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  @media (min-width: 1201px) {
+    font: normal normal bold 22px Roboto;
+  }
+  @media (max-width: 1200px) and (min-width: 993px) {
+    font: normal normal bold 22px Roboto;
+  }
+  @media (max-width: 992px) and (min-width: 769px) {
+    font: normal normal bold 22px Roboto;
+  }
+  @media (max-width: 768px) and (min-width: 577px) {
+    font: normal normal bold 20px Roboto;;
+  }
+  @media (max-width: 576px) and (min-width: 0px) {
+    font: normal normal bold 18px Roboto;
+  }
+}
+.top1LeaderPoint {
+  text-align: right !important;
+  font: normal normal bold 26px Roboto;
+  letter-spacing: 0px;
+  color: #ffffff;
+  opacity: 1;
+  margin: 0;
+}
+.top2LeaderName {
+  text-align: left !important;
+  letter-spacing: 0px;
+  color: #333333;
+  opacity: 1;
+  text-transform: capitalize;
+  margin-top: 15px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+
+  @media (min-width: 1201px) {
+    font: normal normal bold 22px Roboto;
+  }
+  @media (max-width: 1200px) and (min-width: 993px) {
+    font: normal normal bold 22px Roboto;
+  }
+  @media (max-width: 992px) and (min-width: 769px) {
+    font: normal normal bold 22px Roboto;
+  }
+  @media (max-width: 768px) and (min-width: 577px) {
+    font: normal normal bold 20px Roboto;;
+  }
+  @media (max-width: 576px) and (min-width: 0px) {
+    font: normal normal bold 18px Roboto;
+  }
+}
+.top2LeaderPoint {
+  text-align: right !important;
+  letter-spacing: 0px;
+  color: #e9aa10;
+  opacity: 1;
+  margin-top: 15px;
+  @media (min-width: 1201px) {
+    font: normal normal bold 22px Roboto;
+  }
+  @media (max-width: 1200px) and (min-width: 993px) {
+    font: normal normal bold 22px Roboto;
+  }
+  @media (max-width: 992px) and (min-width: 769px) {
+    font: normal normal bold 22px Roboto;
+  }
+  @media (max-width: 768px) and (min-width: 577px) {
+    font: normal normal bold 20px Roboto;;
+  }
+  @media (max-width: 576px) and (min-width: 0px) {
+    font: normal normal bold 18px Roboto;
+  }
+}
+.btnWrapper {
+  display: flex;
+  justify-content: right;
+  justify-items: right;
+}
+.followButton {
+  width: 110px;
+  height: 40px;
+  background: #007bff 0% 0% no-repeat padding-box;
+  border-radius: 5px;
+  opacity: 1;
+  text-align: center;
+  font: normal normal normal 19px Roboto !important;
+  letter-spacing: 0px;
+  color: #ffffff;
+  opacity: 1;
+  padding: 10px;
+  cursor: pointer;
+}
+.followBtn1 {
+  width: 110px;
+  height: 40px;
+  background: #ffc107;
+  border-radius: 5px;
+  opacity: 1;
+  text-align: center;
+  font: normal normal normal 19px Roboto !important;
+  letter-spacing: 0px;
+  color: #000;
+  opacity: 1;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.LeaderHeadings {
+  text-align: left;
+  font: normal normal bold 18px Roboto;
+  letter-spacing: 0px;
+  color: #333333;
+  opacity: 1;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  padding: 0px 20px;
+}
+.alignCenter {
+  text-align: center !important;
+}
+.LeaderCards {
+  background: #ffffff 0% 0% no-repeat padding-box;
+  box-shadow: 0px 3px 30px #0000000f !important;
+  border-radius: 5px !important;
+  opacity: 1;
+  margin-bottom: 20px !important;
+//   padding: 10px 20px;
+  border-style: none !important;
+  border-width: 0 !important;
+}
+.leader-card-profile-circle {
+  width: 55px;
+  height: 55px;
+  box-shadow: 0px 3px 6px #00000012;
+  border: 3px solid #ffffff;
+  opacity: 1;
+  border-radius: 50%;
+  background-color: #fec230;
+  color: #000;
+  text-align: center;
+  font: normal normal bold 30px Roboto !important;
+  padding: 6px;
+  cursor: pointer;
+}
+.listName {
+  font: normal normal bold 20px Roboto !important;
+  letter-spacing: 0px;
+  color: #333333;
+  opacity: 1;
+  padding-top: 24px !important;
+  @media (min-width: 1201px) {
+    font: normal normal bold 20px Roboto !important;
+  }
+  @media (max-width: 1200px) and (min-width: 993px) {
+    font: normal normal bold 20px Roboto !important;
+  }
+  @media (max-width: 992px) and (min-width: 769px) {
+    font: normal normal bold 20px Roboto !important;
+  }
+  @media (max-width: 768px) and (min-width: 577px) {
+    font: normal normal bold 16px Roboto !important;
+  }
+  @media (max-width: 576px) and (min-width: 0px) {
+    font: normal normal bold 16px Roboto !important;
+  }
+}
+.listPoint {
+  letter-spacing: 0px;
+  color: #e9aa10;
+  opacity: 1;
+  text-align: left !important;
+  padding-top: 24px !important;
+  @media (min-width: 1201px) {
+    font: normal normal bold 20px Roboto !important;
+  }
+  @media (max-width: 1200px) and (min-width: 993px) {
+    font: normal normal bold 20px Roboto !important;
+  }
+  @media (max-width: 992px) and (min-width: 769px) {
+    font: normal normal bold 20px Roboto !important;
+  }
+  @media (max-width: 768px) and (min-width: 577px) {
+    font: normal normal bold 16px Roboto !important;
+  }
+  @media (max-width: 576px) and (min-width: 0px) {
+    font: normal normal bold 16px Roboto !important;
+  }
+}
+.listSubmitted {
+  text-align: left !important;
+  font: normal normal normal 18px Roboto;
+  letter-spacing: 0px;
+  color: #333333;
+  opacity: 1;
+  margin-top: 1.5%;
+  padding-top: 24px !important;
+}
+.listBtn {
+  padding-top: 12px !important;
+}
+.ranking-section {
+  display: flex;
+  justify-content: center;
+  position: relative;
+}
+.ranking-badge {
+  position: relative;
+  @media (min-width: 1201px) {
+    top: -10rem;
+    height: 300px;
+  }
+  @media (max-width: 1200px) and (min-width: 993px) {
+    top: -8rem;
+    height: 250px;
+  }
+  @media (max-width: 992px) and (min-width: 769px) {
+    top: -6rem;
+    height: 200px;
+  }
+  @media (max-width: 768px) and (min-width: 577px) {
+    top: -4rem;
+    height: 150px;
+  }
+  @media (max-width: 576px) and (min-width: 0px) {
+    top: -3rem;
+    height: 100px;
+  }
+}
+.myRanking {
+  letter-spacing: 0px;
+  color: #f5f1e7;
+  opacity: 1;
+  position: absolute;
+  @media (min-width: 1201px) {
+    top: -44%;
+    font: normal normal bold 106px Roboto;
+  }
+  @media (max-width: 1200px) and (min-width: 993px) {
+    top: -44%;
+    font: normal normal bold 86px Roboto;
+  }
+  @media (max-width: 992px) and (min-width: 769px) {
+    top: -35%;
+    font: normal normal bold 66px Roboto;
+  }
+  @media (max-width: 768px) and (min-width: 577px) {
+    top: -30%;
+    font: normal normal bold 46px Roboto;
+  }
+  @media (max-width: 576px) and (min-width: 0px) {
+    top: -30%;
+    font: normal normal bold 26px Roboto;
+  }
+}
+.trackerHeading {
+  @media (min-width: 1201px) {
+    text-align: left;
+    font: normal normal bold 46px Roboto;
+    letter-spacing: 0px;
+    color: #3d3d3d;
+    opacity: 1;
+    margin: 20px;
+  }
+  @media (max-width: 1200px) and (min-width: 993px) {
+    text-align: left;
+    font: normal normal bold 40px Roboto;
+    letter-spacing: 0px;
+    color: #3d3d3d;
+    opacity: 1;
+    margin: 20px;
+  }
+  @media (max-width: 992px) and (min-width: 769px) {
+    text-align: left;
+    font: normal normal bold 34px Roboto;
+    letter-spacing: 0px;
+    color: #3d3d3d;
+    opacity: 1;
+    margin: 20px;
+  }
+  @media (max-width: 768px) and (min-width: 577px) {
+    text-align: left;
+    font: normal normal bold 28px Roboto;
+    letter-spacing: 0px;
+    color: #3d3d3d;
+    opacity: 1;
+    margin: 20px 10px;
+  }
+  @media (max-width: 576px) and (min-width: 0px) {
+    text-align: left;
+    font: normal normal bold 24px Roboto;
+    letter-spacing: 0px;
+    color: #3d3d3d;
+    opacity: 1;
+    margin: 20px 10px;
+  }
+}
+.leader-cards {
+  padding: 0;
+}
+.leader-card {
+  border-radius: 0.6em;
+  margin: 8px;
+  transition: all ease 200ms;
+  background: #ffffff 0% 0% no-repeat padding-box;
+  box-shadow: 0px 3px 30px #0000000f;
+  color: #000;
+  padding: 1em;
+  position: relative;
+  top: -40px;
+}
+.topOne {
+  @media (min-width: 1201px) {
+    margin-top: -20px;
+  }
+  @media (max-width: 1200px) and (min-width: 993px) {
+    margin-top: -20px;
+  }
+  @media (max-width: 992px) and (min-width: 769px) {
+    margin-top: 0px;
+  }
+  @media (max-width: 768px) and (min-width: 577px) {
+    margin-top: 0px;
+  }
+  @media (max-width: 576px) and (min-width: 0px) {
+    margin-top: 0px;
+  }
+}
+#rank1 {
+  background: transparent linear-gradient(116deg, #7e57c2 0%, #ab47bc 100%) 0%
+    0% no-repeat padding-box;
+  box-shadow: 0px 3px 30px #0000000f;
+}
+
+.nameHeader {
+  padding-left: 80px;
+}
