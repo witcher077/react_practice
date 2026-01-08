@@ -1,12 +1,12 @@
 import React from 'react'
 
 const Showlist = (props) => {
-    console.log(props.suggetions)
+    console.log(props.suggestions)
     return (
         <div>
             <ul>
                 {
-                   props.suggetions.length>0 && props.suggetions.map((ele) =><li>{ele.name}</li> )
+                   props.suggestions && props.suggestions.map((ele) =><li>{ele.name}</li> )
                 }
             </ul>
         </div>
