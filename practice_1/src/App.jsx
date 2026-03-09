@@ -3,6 +3,7 @@ import { UserContext } from "./utills/Context/userContext";
 import Page1 from "./utills/customHooks/page";
 import StopWatch from "./components/stopwatch/stopWatch"
 import Autocompete from "./components/AutoComplete/autocompleteComp"
+import InfinitScrolling from "./components/infiniteScrollong/InfinitScrolling";
 
 function App() {
   const [inputval, setinputval] = useState('');
@@ -13,7 +14,8 @@ function App() {
     <>
     {/* <StopWatch/> */}
     {/* <Page1/> */}
-    <Autocompete/>
+    {/* <Autocompete/> */}
+    <InfinitScrolling/>
       {/* <p>
         User Name: <strong>{user.name}</strong>
       </p>

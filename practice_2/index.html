@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .child {
+            border: 1px solid red;
+            width: 100px;
+            height: 100px;
+            margin: 2px;
+        }
+
+        .parent {
+            display: flex;
+            flex-direction: column;
+        }
+
+        @media (max-width:767px){
+            .parent {
+            display: flex;
+            flex-direction: row;
+        } 
+        }
+
+    </style>
+</head>
+
+<body>
+    <div class="parent">
+        <div class='child'></div>
+        <div class='child'></div>
+        <div class='child'></div>
+    </div>
+</body>
+
+</html>
